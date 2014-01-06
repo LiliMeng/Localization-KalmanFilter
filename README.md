@@ -1,4 +1,6 @@
-This is Kalman Filter Localization code for Mobile Robots
+This is Kalman Filter Localization code for Mobile Robots after I took Thrun's online course Artificial Intelligence for Robotics.
+
+I just revised a little bit on the code. The original code is attributed to Thrun :)
 
 Author: Lili Meng
 Background: PhD in Robotics in University of British Columbia-Vancouver
