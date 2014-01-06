@@ -15,9 +15,10 @@ motion_sig = 2.
 mu =0.
 sig = 10000.
 
+m = [mu,sig]
 
 for i in range(len(measurements)):
-    [mu,sig] = update(mu,sig,measurements[i],measurement_sig)
-    print 'update:',[mu,sig]
-    [mu,sig] = predict(mu,sig,motion[i],motion_sig)
-    print 'predict:',[mu,sig]
+    m = update(m[0],m[1],measurements[i],measurement_sig)
+    print 'update:',m
+    m = predict(m[0],m[1],motion[i],motion_sig)
+    print 'predict:',m
